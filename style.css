@@ -421,6 +421,7 @@ body {
     margin-inline: auto;
     height: 20rem;
     display: flex;
+    margin-top: 0;
     justify-content: center;
   }
   .step {
@@ -461,7 +462,7 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    /* background-color: rebeccapurple; */
+
     z-index: 222;
   }
 

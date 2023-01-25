@@ -239,9 +239,7 @@ const moOrYr = () => {
 
 const returnToFirstPage = () => {
   for (let i = 0; i < sections.length; i++) {
-    // removeClassHelper(sections[i], "active-section");
     sections[i].classList.remove("active-section");
-    // removeClassHelper(stepNumbers[i], "active-step");
     stepNumbers[i].classList.remove("active-step");
   }
   allPlans.forEach((el) => {
@@ -249,8 +247,6 @@ const returnToFirstPage = () => {
   });
   sections[0].classList.add("active-section");
   stepNumbers[0].classList.add("active-step");
-  // addClassHelper(sections[0], "active-section");
-  // addClassHelper(stepNumbers[0], "active-step");
 };
 
 const resetPlanObject = () => {
